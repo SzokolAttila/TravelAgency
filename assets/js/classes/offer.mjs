@@ -4,7 +4,7 @@ class Offer{
     #cost;
     #summary;
     #available;
-    constructor(hotel, id, cost, summary, available){
+    constructor({hotel, id, cost, summary, available}){
         this.#hotel = hotel;
         this.#id = id;
         this.#cost = cost;
